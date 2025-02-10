@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://chatroom-backend-production-ce77.up.railway.app/');
 const loginContainer = document.getElementById('login-container');
 const chatContainer = document.getElementById('chat-container');
 const idInput = document.getElementById('id-input');
